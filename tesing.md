@@ -1,0 +1,1 @@
+Testing that git and repo  are setup correctly
