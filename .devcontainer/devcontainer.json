@@ -1,0 +1,11 @@
+{
+  "name": "My Everything Workspace",
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "ms-python.python",
+    "ms-vscode.cpptools",
+    "redhat.java",
+    "ms-dotnettools.csharp",
+    "ms-mssql.mssql"
+  ]
+}
