@@ -1,0 +1,19 @@
+{
+    "name": "C SDL3 Devcontainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "twxs.cmake"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
+    },
+    "postCreateCommand": "echo 'Devcontainer ready!'",
+    "remoteUser": "vscode"
+}
